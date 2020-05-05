@@ -15,19 +15,29 @@ const render = require("./lib/htmlRenderer");
 const questions = [
   {
     type: "input",
-    message: "Enter id number",
-    name: "email"
+    message: "Enter name",
+    name: "name"
   },
   {
     type: "input",
-    message: "Enter position (i.e. manager, engineer, intern",
-    name: "email"
+    message: "Enter id number",
+    name: "id"
+  },
+  {
+    type: "input",
+    message: "Enter role/position (i.e. manager, engineer, intern",
+    name: "role"
   },
   {
     type: "input",
     message: "Enter email",
-    name: "username"
+    name: "email"
   },
+  {
+    type: "input",
+    message: "Enter GitHub username",
+    name: "github"
+  }
 ];
 
 function init() {
