@@ -1,5 +1,4 @@
-
-const render =(arr)=> `<!DOCTYPE html>
+const render = (arr) => `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -23,13 +22,13 @@ const render =(arr)=> `<!DOCTYPE html>
     </div>
     <div class="container">
         <div class="row">
-            <div class="team-area col-12 d-flex justify-content-center">
-                ${arr.map(member=>member.getHTML())}
-            </div>
+          <div class="team-area col-12 d-flex justify-content-center">
+            ${arr.map((member) => member.getHTML())}
+          </div>
         </div>
     </div>
 </body>
 
-</html>`
+</html>`;
 
 module.exports = render;
